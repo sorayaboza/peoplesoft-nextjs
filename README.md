@@ -1,16 +1,22 @@
 # Nextjs-PostgreSQL-APIs
 [DOCUMENTATION](https://docs.google.com/document/d/1OhbD-u22NT2IBYH49UhsAx-CwUYKfLt3wjHiVsytMR0/edit?usp=sharing)
 
+PREREQUISITES: Install the following
+[VS Code](https://code.visualstudio.com/download)
+[Git](https://git-scm.com/downloads)
+[Node.js](https://nodejs.org/en/download/prebuilt-installer)
+[PostgreSQL 18+](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) (Install version 15.8 or higher)
+
 ## Steps for Running
 1. In VS Code, open your terminal.
 2. Enter the following commands:
-* ```git clone https://github.com/sorayaboza/Nextjs-PostgreSQL-APIs.git```
+* ```git clone https://github.com/sorayaboza/peoplesoft-nextjs.git```
 * ```cd .\Nextjs-PostgreSQL-APIs\```
 * ```npm i```
 * ```psql -U [your postgres username] -f src/app/data/database.sql```
 
-3. Under the main folder (NextJs-PostgreSQL-APIs), add a ```.env``` file.
-4. In the ```.env``` file, add the following content:
+3. Under the main folder (peoplesoft-nextjs), add a ```.env``` file.
+4. In the ```.env``` file, add the following:
 ```
 DB_HOST=localhost
 DB_PORT=5432
@@ -19,7 +25,8 @@ DB_PASSWORD=[your postgre password]
 DB_NAME=my_database
 DATABASE_URL=postgresql://[your postgre username]:[your postgre password]@localhost:5432/my_database
 ```
+*(Note: Write your info without the square brackets. Ex: DB_USER=postgres, postgresql://postgres:...)*
 
 5. Once this is set up, you can run the app using ```npm run dev```.
 
-Note: If you're unsure what your postgres username is, it may 'postgres'.
+Note: If you're unsure what your postgres username is, it may be 'postgres'.
