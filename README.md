@@ -2,10 +2,19 @@
 [DOCUMENTATION](https://docs.google.com/document/d/1OhbD-u22NT2IBYH49UhsAx-CwUYKfLt3wjHiVsytMR0/edit?usp=sharing)
 
 PREREQUISITES: Install the following
+
+
 [VS Code](https://code.visualstudio.com/download)
+
+
 [Git](https://git-scm.com/downloads)
+
+
 [Node.js](https://nodejs.org/en/download/prebuilt-installer)
+
+
 [PostgreSQL 18+](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) (Install version 15.8 or higher)
+
 
 ## Steps for Running
 1. In VS Code, open your terminal.
